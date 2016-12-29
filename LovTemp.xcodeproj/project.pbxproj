@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F18FFB8A1E151E6B00309E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFB891E151E6B00309E8A /* AppDelegate.swift */; };
+		F18FFB8C1E151E6B00309E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18FFB8B1E151E6B00309E8A /* Assets.xcassets */; };
+		F18FFB8F1E151E6B00309E8A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18FFB8D1E151E6B00309E8A /* MainMenu.xib */; };
+		F18FFB9A1E151E6C00309E8A /* LovTempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFB991E151E6C00309E8A /* LovTempTests.swift */; };
+		F18FFBA51E151E6C00309E8A /* LovTempUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFBA41E151E6C00309E8A /* LovTempUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18FFB961E151E6C00309E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18FFB7E1E151E6B00309E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18FFB851E151E6B00309E8A;
+			remoteInfo = LovTemp;
+		};
+		F18FFBA11E151E6C00309E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18FFB7E1E151E6B00309E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18FFB851E151E6B00309E8A;
+			remoteInfo = LovTemp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F18FFB861E151E6B00309E8A /* LovTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LovTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18FFB891E151E6B00309E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F18FFB8B1E151E6B00309E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F18FFB8E1E151E6B00309E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F18FFB901E151E6B00309E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18FFB951E151E6C00309E8A /* LovTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18FFB991E151E6C00309E8A /* LovTempTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovTempTests.swift; sourceTree = "<group>"; };
+		F18FFB9B1E151E6C00309E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18FFBA01E151E6C00309E8A /* LovTempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovTempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18FFBA41E151E6C00309E8A /* LovTempUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovTempUITests.swift; sourceTree = "<group>"; };
+		F18FFBA61E151E6C00309E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18FFB831E151E6B00309E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18FFB921E151E6C00309E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18FFB9D1E151E6C00309E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18FFB7D1E151E6B00309E8A = {
+			isa = PBXGroup;
+			children = (
+				F18FFB881E151E6B00309E8A /* LovTemp */,
+				F18FFB981E151E6C00309E8A /* LovTempTests */,
+				F18FFBA31E151E6C00309E8A /* LovTempUITests */,
+				F18FFB871E151E6B00309E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18FFB871E151E6B00309E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18FFB861E151E6B00309E8A /* LovTemp.app */,
+				F18FFB951E151E6C00309E8A /* LovTempTests.xctest */,
+				F18FFBA01E151E6C00309E8A /* LovTempUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18FFB881E151E6B00309E8A /* LovTemp */ = {
+			isa = PBXGroup;
+			children = (
+				F18FFB891E151E6B00309E8A /* AppDelegate.swift */,
+				F18FFB8B1E151E6B00309E8A /* Assets.xcassets */,
+				F18FFB8D1E151E6B00309E8A /* MainMenu.xib */,
+				F18FFB901E151E6B00309E8A /* Info.plist */,
+			);
+			path = LovTemp;
+			sourceTree = "<group>";
+		};
+		F18FFB981E151E6C00309E8A /* LovTempTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18FFB991E151E6C00309E8A /* LovTempTests.swift */,
+				F18FFB9B1E151E6C00309E8A /* Info.plist */,
+			);
+			path = LovTempTests;
+			sourceTree = "<group>";
+		};
+		F18FFBA31E151E6C00309E8A /* LovTempUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F18FFBA41E151E6C00309E8A /* LovTempUITests.swift */,
+				F18FFBA61E151E6C00309E8A /* Info.plist */,
+			);
+			path = LovTempUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18FFB851E151E6B00309E8A /* LovTemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18FFBA91E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTemp" */;
+			buildPhases = (
+				F18FFB821E151E6B00309E8A /* Sources */,
+				F18FFB831E151E6B00309E8A /* Frameworks */,
+				F18FFB841E151E6B00309E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LovTemp;
+			productName = LovTemp;
+			productReference = F18FFB861E151E6B00309E8A /* LovTemp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18FFB941E151E6C00309E8A /* LovTempTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18FFBAC1E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTempTests" */;
+			buildPhases = (
+				F18FFB911E151E6C00309E8A /* Sources */,
+				F18FFB921E151E6C00309E8A /* Frameworks */,
+				F18FFB931E151E6C00309E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18FFB971E151E6C00309E8A /* PBXTargetDependency */,
+			);
+			name = LovTempTests;
+			productName = LovTempTests;
+			productReference = F18FFB951E151E6C00309E8A /* LovTempTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F18FFB9F1E151E6C00309E8A /* LovTempUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18FFBAF1E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTempUITests" */;
+			buildPhases = (
+				F18FFB9C1E151E6C00309E8A /* Sources */,
+				F18FFB9D1E151E6C00309E8A /* Frameworks */,
+				F18FFB9E1E151E6C00309E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18FFBA21E151E6C00309E8A /* PBXTargetDependency */,
+			);
+			name = LovTempUITests;
+			productName = LovTempUITests;
+			productReference = F18FFBA01E151E6C00309E8A /* LovTempUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18FFB7E1E151E6B00309E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lovsala;
+				TargetAttributes = {
+					F18FFB851E151E6B00309E8A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F18FFB941E151E6C00309E8A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F18FFB851E151E6B00309E8A;
+					};
+					F18FFB9F1E151E6C00309E8A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F18FFB851E151E6B00309E8A;
+					};
+				};
+			};
+			buildConfigurationList = F18FFB811E151E6B00309E8A /* Build configuration list for PBXProject "LovTemp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18FFB7D1E151E6B00309E8A;
+			productRefGroup = F18FFB871E151E6B00309E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18FFB851E151E6B00309E8A /* LovTemp */,
+				F18FFB941E151E6C00309E8A /* LovTempTests */,
+				F18FFB9F1E151E6C00309E8A /* LovTempUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18FFB841E151E6B00309E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18FFB8C1E151E6B00309E8A /* Assets.xcassets in Resources */,
+				F18FFB8F1E151E6B00309E8A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18FFB931E151E6C00309E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18FFB9E1E151E6C00309E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18FFB821E151E6B00309E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18FFB8A1E151E6B00309E8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18FFB911E151E6C00309E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18FFB9A1E151E6C00309E8A /* LovTempTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18FFB9C1E151E6C00309E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18FFBA51E151E6C00309E8A /* LovTempUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18FFB971E151E6C00309E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18FFB851E151E6B00309E8A /* LovTemp */;
+			targetProxy = F18FFB961E151E6C00309E8A /* PBXContainerItemProxy */;
+		};
+		F18FFBA21E151E6C00309E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18FFB851E151E6B00309E8A /* LovTemp */;
+			targetProxy = F18FFBA11E151E6C00309E8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F18FFB8D1E151E6B00309E8A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18FFB8E1E151E6B00309E8A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F18FFBA71E151E6C00309E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F18FFBA81E151E6C00309E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F18FFBAA1E151E6C00309E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LovTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovsala.com.LovTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F18FFBAB1E151E6C00309E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LovTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovsala.com.LovTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F18FFBAD1E151E6C00309E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LovTempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovsala.com.LovTempTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LovTemp.app/Contents/MacOS/LovTemp";
+			};
+			name = Debug;
+		};
+		F18FFBAE1E151E6C00309E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LovTempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovsala.com.LovTempTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LovTemp.app/Contents/MacOS/LovTemp";
+			};
+			name = Release;
+		};
+		F18FFBB01E151E6C00309E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LovTempUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovsala.com.LovTempUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LovTemp;
+			};
+			name = Debug;
+		};
+		F18FFBB11E151E6C00309E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LovTempUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lovsala.com.LovTempUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LovTemp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18FFB811E151E6B00309E8A /* Build configuration list for PBXProject "LovTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18FFBA71E151E6C00309E8A /* Debug */,
+				F18FFBA81E151E6C00309E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18FFBA91E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18FFBAA1E151E6C00309E8A /* Debug */,
+				F18FFBAB1E151E6C00309E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F18FFBAC1E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTempTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18FFBAD1E151E6C00309E8A /* Debug */,
+				F18FFBAE1E151E6C00309E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F18FFBAF1E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTempUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18FFBB01E151E6C00309E8A /* Debug */,
+				F18FFBB11E151E6C00309E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18FFB7E1E151E6B00309E8A /* Project object */;
+}

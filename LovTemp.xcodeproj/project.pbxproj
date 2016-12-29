@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58FB198CCFDB090149CC72F1 /* Pods_LovTempUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4020F40197186C65B415A4A1 /* Pods_LovTempUITests.framework */; };
+		71029E409C2A293C96B410EF /* Pods_LovTemp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D92C43779569403E75C2608 /* Pods_LovTemp.framework */; };
+		B67298CEEB507A7C0BD5AE94 /* Pods_LovTempTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9378116BB10DD9B5C84BEF /* Pods_LovTempTests.framework */; };
 		F18FFB8A1E151E6B00309E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFB891E151E6B00309E8A /* AppDelegate.swift */; };
-		F18FFB8C1E151E6B00309E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18FFB8B1E151E6B00309E8A /* Assets.xcassets */; };
 		F18FFB8F1E151E6B00309E8A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18FFB8D1E151E6B00309E8A /* MainMenu.xib */; };
 		F18FFB9A1E151E6C00309E8A /* LovTempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFB991E151E6C00309E8A /* LovTempTests.swift */; };
 		F18FFBA51E151E6C00309E8A /* LovTempUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFBA41E151E6C00309E8A /* LovTempUITests.swift */; };
+		F18FFBB31E15230600309E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18FFBB21E15230600309E8A /* Assets.xcassets */; };
+		F18FFBB51E154EC900309E8A /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFBB41E154EC900309E8A /* StatusMenuController.swift */; };
+		F18FFBB81E155D8B00309E8A /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFBB71E155D8B00309E8A /* TemperatureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EB9D54C39319C6A36C58FA7 /* Pods-LovTempUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovTempUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LovTempUITests/Pods-LovTempUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B9378116BB10DD9B5C84BEF /* Pods_LovTempTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovTempTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4020F40197186C65B415A4A1 /* Pods_LovTempUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovTempUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D92C43779569403E75C2608 /* Pods_LovTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovTemp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664C66E69354AE292AD4A24A /* Pods-LovTemp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovTemp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LovTemp/Pods-LovTemp.debug.xcconfig"; sourceTree = "<group>"; };
+		A14414FD643EC950BE2CDDA5 /* Pods-LovTempUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovTempUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LovTempUITests/Pods-LovTempUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B81AAD449A3D9E0AC6D7E717 /* Pods-LovTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovTemp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LovTemp/Pods-LovTemp.release.xcconfig"; sourceTree = "<group>"; };
+		CB0FC7947E6D8283188C8814 /* Pods-LovTempTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovTempTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LovTempTests/Pods-LovTempTests.release.xcconfig"; sourceTree = "<group>"; };
 		F18FFB861E151E6B00309E8A /* LovTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LovTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18FFB891E151E6B00309E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F18FFB8B1E151E6B00309E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18FFB8E1E151E6B00309E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F18FFB901E151E6B00309E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18FFB951E151E6C00309E8A /* LovTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +55,10 @@
 		F18FFBA01E151E6C00309E8A /* LovTempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovTempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18FFBA41E151E6C00309E8A /* LovTempUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovTempUITests.swift; sourceTree = "<group>"; };
 		F18FFBA61E151E6C00309E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18FFBB21E15230600309E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F18FFBB41E154EC900309E8A /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		F18FFBB71E155D8B00309E8A /* TemperatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
+		F6F69504D425351355E21DDB /* Pods-LovTempTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovTempTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LovTempTests/Pods-LovTempTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71029E409C2A293C96B410EF /* Pods_LovTemp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67298CEEB507A7C0BD5AE94 /* Pods_LovTempTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58FB198CCFDB090149CC72F1 /* Pods_LovTempUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FECDCB4548E9284167D9D2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				664C66E69354AE292AD4A24A /* Pods-LovTemp.debug.xcconfig */,
+				B81AAD449A3D9E0AC6D7E717 /* Pods-LovTemp.release.xcconfig */,
+				F6F69504D425351355E21DDB /* Pods-LovTempTests.debug.xcconfig */,
+				CB0FC7947E6D8283188C8814 /* Pods-LovTempTests.release.xcconfig */,
+				A14414FD643EC950BE2CDDA5 /* Pods-LovTempUITests.debug.xcconfig */,
+				0EB9D54C39319C6A36C58FA7 /* Pods-LovTempUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6E66750ECCDA79060D522D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D92C43779569403E75C2608 /* Pods_LovTemp.framework */,
+				3B9378116BB10DD9B5C84BEF /* Pods_LovTempTests.framework */,
+				4020F40197186C65B415A4A1 /* Pods_LovTempUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F18FFB7D1E151E6B00309E8A = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +119,11 @@
 				F18FFB981E151E6C00309E8A /* LovTempTests */,
 				F18FFBA31E151E6C00309E8A /* LovTempUITests */,
 				F18FFB871E151E6B00309E8A /* Products */,
+				6FECDCB4548E9284167D9D2F /* Pods */,
+				E6E66750ECCDA79060D522D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		F18FFB871E151E6B00309E8A /* Products */ = {
 			isa = PBXGroup;
@@ -93,10 +138,12 @@
 		F18FFB881E151E6B00309E8A /* LovTemp */ = {
 			isa = PBXGroup;
 			children = (
+				F18FFBB21E15230600309E8A /* Assets.xcassets */,
 				F18FFB891E151E6B00309E8A /* AppDelegate.swift */,
-				F18FFB8B1E151E6B00309E8A /* Assets.xcassets */,
+				F18FFBB41E154EC900309E8A /* StatusMenuController.swift */,
 				F18FFB8D1E151E6B00309E8A /* MainMenu.xib */,
 				F18FFB901E151E6B00309E8A /* Info.plist */,
+				F18FFBB71E155D8B00309E8A /* TemperatureViewController.swift */,
 			);
 			path = LovTemp;
 			sourceTree = "<group>";
@@ -126,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F18FFBA91E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTemp" */;
 			buildPhases = (
+				24A9760AA8C748AE17F91429 /* [CP] Check Pods Manifest.lock */,
 				F18FFB821E151E6B00309E8A /* Sources */,
 				F18FFB831E151E6B00309E8A /* Frameworks */,
 				F18FFB841E151E6B00309E8A /* Resources */,
+				35254D1596685F4CD1AF8E3C /* [CP] Embed Pods Frameworks */,
+				5A15E865023549DB161AB390 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F18FFBAC1E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTempTests" */;
 			buildPhases = (
+				9A457ED6D39DAFE7A4D3AEBB /* [CP] Check Pods Manifest.lock */,
 				F18FFB911E151E6C00309E8A /* Sources */,
 				F18FFB921E151E6C00309E8A /* Frameworks */,
 				F18FFB931E151E6C00309E8A /* Resources */,
+				8AB213C25C570DCF71532404 /* [CP] Embed Pods Frameworks */,
+				8890EFB6C2E82C9DED188677 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F18FFBAF1E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTempUITests" */;
 			buildPhases = (
+				9F4D4A16DDA3C4C61A92D4BC /* [CP] Check Pods Manifest.lock */,
 				F18FFB9C1E151E6C00309E8A /* Sources */,
 				F18FFB9D1E151E6C00309E8A /* Frameworks */,
 				F18FFB9E1E151E6C00309E8A /* Resources */,
+				9C7AD35A5AF7B79DCD0CB499 /* [CP] Embed Pods Frameworks */,
+				44D175027D1EA3D3F88CA722 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,7 +239,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = lovsala;
+				ORGANIZATIONNAME = Lovsala;
 				TargetAttributes = {
 					F18FFB851E151E6B00309E8A = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -226,7 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18FFB8C1E151E6B00309E8A /* Assets.xcassets in Resources */,
+				F18FFBB31E15230600309E8A /* Assets.xcassets in Resources */,
 				F18FFB8F1E151E6B00309E8A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,11 +303,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24A9760AA8C748AE17F91429 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35254D1596685F4CD1AF8E3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LovTemp/Pods-LovTemp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44D175027D1EA3D3F88CA722 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LovTempUITests/Pods-LovTempUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A15E865023549DB161AB390 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LovTemp/Pods-LovTemp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8890EFB6C2E82C9DED188677 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LovTempTests/Pods-LovTempTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB213C25C570DCF71532404 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LovTempTests/Pods-LovTempTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A457ED6D39DAFE7A4D3AEBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C7AD35A5AF7B79DCD0CB499 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LovTempUITests/Pods-LovTempUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4D4A16DDA3C4C61A92D4BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F18FFB821E151E6B00309E8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18FFBB81E155D8B00309E8A /* TemperatureViewController.swift in Sources */,
+				F18FFBB51E154EC900309E8A /* StatusMenuController.swift in Sources */,
 				F18FFB8A1E151E6B00309E8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,12 +587,13 @@
 		};
 		F18FFBAA1E151E6C00309E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664C66E69354AE292AD4A24A /* Pods-LovTemp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LovTemp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lovsala.com.LovTemp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovsala.LovTemp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -404,12 +601,13 @@
 		};
 		F18FFBAB1E151E6C00309E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81AAD449A3D9E0AC6D7E717 /* Pods-LovTemp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LovTemp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lovsala.com.LovTemp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovsala.LovTemp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -417,6 +615,7 @@
 		};
 		F18FFBAD1E151E6C00309E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F69504D425351355E21DDB /* Pods-LovTempTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -432,6 +631,7 @@
 		};
 		F18FFBAE1E151E6C00309E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0FC7947E6D8283188C8814 /* Pods-LovTempTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -447,6 +647,7 @@
 		};
 		F18FFBB01E151E6C00309E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14414FD643EC950BE2CDDA5 /* Pods-LovTempUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -461,6 +662,7 @@
 		};
 		F18FFBB11E151E6C00309E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB9D54C39319C6A36C58FA7 /* Pods-LovTempUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -492,6 +694,7 @@
 				F18FFBAB1E151E6C00309E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F18FFBAC1E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTempTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +703,7 @@
 				F18FFBAE1E151E6C00309E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F18FFBAF1E151E6C00309E8A /* Build configuration list for PBXNativeTarget "LovTempUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +712,7 @@
 				F18FFBB11E151E6C00309E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

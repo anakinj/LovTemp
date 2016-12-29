@@ -16,7 +16,8 @@
 		F18FFBA51E151E6C00309E8A /* LovTempUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFBA41E151E6C00309E8A /* LovTempUITests.swift */; };
 		F18FFBB31E15230600309E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18FFBB21E15230600309E8A /* Assets.xcassets */; };
 		F18FFBB51E154EC900309E8A /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFBB41E154EC900309E8A /* StatusMenuController.swift */; };
-		F18FFBB81E155D8B00309E8A /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FFBB71E155D8B00309E8A /* TemperatureViewController.swift */; };
+		F1F926551E15AA3E0023C968 /* TempGraphController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F926531E15AA3E0023C968 /* TempGraphController.swift */; };
+		F1F926561E15AA3E0023C968 /* TempGraphController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F926541E15AA3E0023C968 /* TempGraphController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +58,8 @@
 		F18FFBA61E151E6C00309E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18FFBB21E15230600309E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18FFBB41E154EC900309E8A /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
-		F18FFBB71E155D8B00309E8A /* TemperatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
+		F1F926531E15AA3E0023C968 /* TempGraphController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempGraphController.swift; sourceTree = "<group>"; };
+		F1F926541E15AA3E0023C968 /* TempGraphController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempGraphController.xib; sourceTree = "<group>"; };
 		F6F69504D425351355E21DDB /* Pods-LovTempTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovTempTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LovTempTests/Pods-LovTempTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,7 +145,8 @@
 				F18FFBB41E154EC900309E8A /* StatusMenuController.swift */,
 				F18FFB8D1E151E6B00309E8A /* MainMenu.xib */,
 				F18FFB901E151E6B00309E8A /* Info.plist */,
-				F18FFBB71E155D8B00309E8A /* TemperatureViewController.swift */,
+				F1F926531E15AA3E0023C968 /* TempGraphController.swift */,
+				F1F926541E15AA3E0023C968 /* TempGraphController.xib */,
 			);
 			path = LovTemp;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F18FFBB31E15230600309E8A /* Assets.xcassets in Resources */,
+				F1F926561E15AA3E0023C968 /* TempGraphController.xib in Resources */,
 				F18FFB8F1E151E6B00309E8A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,8 +450,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18FFBB81E155D8B00309E8A /* TemperatureViewController.swift in Sources */,
 				F18FFBB51E154EC900309E8A /* StatusMenuController.swift in Sources */,
+				F1F926551E15AA3E0023C968 /* TempGraphController.swift in Sources */,
 				F18FFB8A1E151E6B00309E8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

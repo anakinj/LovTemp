@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -13,16 +12,25 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="LovTemp" customModuleProvider="target"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="LovTemp" customModuleProvider="target">
+            <connections>
+                <outlet property="statusMenuController" destination="Flk-hf-p5d" id="aBA-9F-WRs"/>
+            </connections>
+        </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <viewController id="kpU-Wy-MVc" customClass="TempGraphController" customModule="LovTemp" customModuleProvider="target"/>
         <customObject id="Flk-hf-p5d" customClass="StatusMenuController" customModule="LovTemp" customModuleProvider="target">
             <connections>
                 <outlet property="statusMenu" destination="PRX-lS-m55" id="GUZ-Mk-yQL"/>
-                <outlet property="temperatureView" destination="i1T-Rl-yQ2" id="505-8j-Veu"/>
+                <outlet property="tempController" destination="kpU-Wy-MVc" id="G5r-Bb-WyQ"/>
             </connections>
         </customObject>
         <menu id="PRX-lS-m55">
             <items>
+                <menuItem title="Item" id="4jq-Tu-yxe">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="l6p-Nb-Q5V"/>
                 <menuItem title="Quit" id="b0e-uG-pzJ">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
@@ -30,22 +38,7 @@
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="139.5" y="165.5"/>
         </menu>
-        <customView id="4Cb-qv-eVW" userLabel="TemperatureView">
-            <rect key="frame" x="0.0" y="0.0" width="283" height="161"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <subviews>
-                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i1T-Rl-yQ2">
-                    <rect key="frame" x="0.0" y="0.0" width="283" height="161"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                </customView>
-            </subviews>
-            <point key="canvasLocation" x="157.5" y="350.5"/>
-        </customView>
-        <viewController id="iVZ-f6-OPd">
-            <connections>
-                <outlet property="view" destination="4Cb-qv-eVW" id="ucp-Tw-9wN"/>
-            </connections>
-        </viewController>
     </objects>
 </document>

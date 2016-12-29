@@ -10,18 +10,21 @@ import Cocoa
 
 class StatusMenuController: NSObject {
     @IBOutlet weak var statusMenu: NSMenu!
-    @IBOutlet weak var temperatureView: NSView!
-    var weatherMenuItem: NSMenuItem!
-    let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
+    @IBOutlet weak var tempController: NSViewController!
     
+    let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     
     override func awakeFromNib() {
         statusItem.title = "LovBar"
         statusItem.menu = statusMenu
-        
-        weatherMenuItem = statusMenu.item(withTitle: "Temperature")
-        weatherMenuItem.view = temperatureView
-        // Insert code here to initialize your application
+    }
+    
+    func applicationDidFinishLaunching() {
+        let dynamicMenuItem = NSMenuItem()
+        self.statusMenu.addItem(dynamicMenuItem)
+        dynamicMenuItem.title = "Test"
+        dynamicMenuItem.isEnabled = true
+        dynamicMenuItem.view = self.tempController.view
     }
     
     @IBAction func quitClicked(sender: NSMenuItem) {

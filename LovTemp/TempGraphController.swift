@@ -1,24 +1,21 @@
 //
-//  TemperatureGraphController.swift
+//  TestViewController.swift
 //  LovTemp
 //
-//  Created by Jakke on 29.12.16.
+//  Created by Joakim Antman on 29/12/2016.
 //  Copyright © 2016 Lovsala. All rights reserved.
 //
 
-import Foundation
 import Cocoa
 import Charts
+import Foundation
 
-open class TemperatureViewController: NSViewController
-{
-    @IBOutlet var lineChartView: LineChartView!
+class TempGraphController: NSViewController {
+
+    @IBOutlet weak var lineChartView: LineChartView!
     
-    override open func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
         let ys1 = Array(1..<10).map { x in return sin(Double(x) / 2.0 / 3.141 * 1.5) }
         let ys2 = Array(1..<10).map { x in return cos(Double(x) / 2.0 / 3.141) }
         
@@ -38,11 +35,16 @@ open class TemperatureViewController: NSViewController
         self.lineChartView.gridBackgroundColor = NSUIColor.white
         
         self.lineChartView.chartDescription?.text = "Linechart Demo"
+
     }
     
     override open func viewWillAppear()
     {
         self.lineChartView.animate(xAxisDuration: 0.0, yAxisDuration: 1.0)
     }
+    
+    @IBAction func onButtonClick(_ sender: NSButton) {
+        sender.title = "clicked"
+    }
+    
 }
-

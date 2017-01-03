@@ -9,40 +9,47 @@
 import Cocoa
 import Foundation
 
+//
+// This is the main controller, gluing everything together.
+//
 class StatusMenuController: NSObject {
+    // Menu shown in the task bar
     @IBOutlet weak var statusMenu: NSMenu!
+    // Temperature Graph
     @IBOutlet weak var tempController: NSViewController!
-    @IBOutlet weak var imagesStack: NSStackView?
-    @IBOutlet weak var imageView: NSImageView!
-    
-    let lovAPI = LovAPI()
+    // Image view
+    @IBOutlet weak var imageController: NSViewController!
     
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     
     override func awakeFromNib() {
-        statusItem.title = "LovBar"
+        statusItem.title = "🦀"
         statusItem.menu = statusMenu
+
+        LovAPI.session.configuration.user = "LovBar"
+        LovAPI.session.configuration.api_key = "SECRET"
         
-        lovAPI.fetchLatestImage(user: "balcony") { imageData in
-            let dynamicMenuItem = NSMenuItem()
-            self.statusMenu.addItem(dynamicMenuItem)
-            dynamicMenuItem.title = "Test"
-            dynamicMenuItem.isEnabled = true
-            self.imageView.image = NSImage(data: imageData)
-            dynamicMenuItem.view = self.imageView
-            
-        }
-    }
-    
-    func applicationDidFinishLaunching() {
-        let dynamicMenuItem = NSMenuItem()
-        self.statusMenu.addItem(dynamicMenuItem)
-        dynamicMenuItem.title = "Test"
-        dynamicMenuItem.isEnabled = true
-        dynamicMenuItem.view = self.tempController.view
+        //addGraphView()
+        addImageView()
     }
     
     @IBAction func quitClicked(sender: NSMenuItem) {
         NSApplication.shared().terminate(self)
+    }
+    
+    private
+    
+    func addGraphView()  {
+        let dynamicMenuItem = NSMenuItem()
+        self.statusMenu.addItem(dynamicMenuItem)
+        dynamicMenuItem.title = "TemperatureGraph"
+        dynamicMenuItem.view = self.tempController.view
+    }
+    
+    func addImageView() {
+        let dynamicMenuItem = NSMenuItem()
+        self.statusMenu.addItem(dynamicMenuItem)
+        dynamicMenuItem.title = "Images"
+        dynamicMenuItem.view = self.imageController.view
     }
 }

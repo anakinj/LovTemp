@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -19,20 +18,17 @@
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <viewController id="ANr-qa-5Wl" customClass="ImageViewController" customModule="LovTemp" customModuleProvider="target"/>
         <viewController id="kpU-Wy-MVc" customClass="TempGraphController" customModule="LovTemp" customModuleProvider="target"/>
         <customObject id="Flk-hf-p5d" customClass="StatusMenuController" customModule="LovTemp" customModuleProvider="target">
             <connections>
-                <outlet property="imageView" destination="LgA-2Z-pRE" id="OIq-Tm-4mY"/>
+                <outlet property="imageController" destination="ANr-qa-5Wl" id="xwu-8b-hGV"/>
                 <outlet property="statusMenu" destination="PRX-lS-m55" id="GUZ-Mk-yQL"/>
                 <outlet property="tempController" destination="kpU-Wy-MVc" id="G5r-Bb-WyQ"/>
             </connections>
         </customObject>
         <menu id="PRX-lS-m55">
             <items>
-                <menuItem title="Item" id="4jq-Tu-yxe">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                </menuItem>
-                <menuItem isSeparatorItem="YES" id="l6p-Nb-Q5V"/>
                 <menuItem title="Quit" id="b0e-uG-pzJ">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
@@ -42,11 +38,5 @@
             </items>
             <point key="canvasLocation" x="139.5" y="165.5"/>
         </menu>
-        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="LgA-2Z-pRE">
-            <rect key="frame" x="0.0" y="0.0" width="124" height="97"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="OEZ-C8-bEW"/>
-            <point key="canvasLocation" x="231" y="408.5"/>
-        </imageView>
     </objects>
 </document>

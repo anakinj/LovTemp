@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -21,6 +22,7 @@
         <viewController id="kpU-Wy-MVc" customClass="TempGraphController" customModule="LovTemp" customModuleProvider="target"/>
         <customObject id="Flk-hf-p5d" customClass="StatusMenuController" customModule="LovTemp" customModuleProvider="target">
             <connections>
+                <outlet property="imageView" destination="LgA-2Z-pRE" id="OIq-Tm-4mY"/>
                 <outlet property="statusMenu" destination="PRX-lS-m55" id="GUZ-Mk-yQL"/>
                 <outlet property="tempController" destination="kpU-Wy-MVc" id="G5r-Bb-WyQ"/>
             </connections>
@@ -40,5 +42,11 @@
             </items>
             <point key="canvasLocation" x="139.5" y="165.5"/>
         </menu>
+        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="LgA-2Z-pRE">
+            <rect key="frame" x="0.0" y="0.0" width="124" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="OEZ-C8-bEW"/>
+            <point key="canvasLocation" x="231" y="408.5"/>
+        </imageView>
     </objects>
 </document>
